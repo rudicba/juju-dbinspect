@@ -13,7 +13,7 @@ setup(name='juju-dbinspect',
       url='https://github.com/kapilt/juju-dbinspect',
       license='BSD',
       packages=find_packages(),
-      install_requires=["PyYAML", "pymongo"],
+      install_requires=["PyYAML", "pymongo==2.8"],
       entry_points={
           "console_scripts": [
               'juju-db = juju_dbinspect.cli:main']},
